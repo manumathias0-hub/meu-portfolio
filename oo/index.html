@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu Nome | Biografia</title>
+  <meta name="description" content="Site de biografia pessoal">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== MENU ========== -->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#inicio" class="logo">Manuela<span> Moraes</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#trajetoria">Trajetória</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#interesses">Interesses</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== INÍCIO ========== -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="tag">Olá, seja bem-vinda(o) 👋</p>
+          <h1>Eu sou a <span>Manuela!</span></h1>
+          <p class="hero-sub">
+            Estudante, apaixonada por aprender e por transformar ideias em realidade.
+            Aqui você encontra um pouco da minha história, do que eu amo fazer
+            e dos meus objetivos.
+          </p>
+          <div class="hero-buttons">
+            <a href="#sobre" class="btn btn-primary">Conheça minha história</a>
+            <a href="#contato" class="btn btn-outline">Fale comigo</a>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <!-- TROQUE A FOTO: coloque o caminho da sua imagem em src (ex: img/minha-foto.jpg) -->
+          <img src="09.jpeg" alt="Foto de perfil">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== NÚMEROS ========== -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat">
+          <h3 class="counter" data-target="19">0</h3>
+          <p>Anos de vida</p>
+        </div>
+        <div class="stat">
+          <h3 class="counter" data-target="4">0</h3>
+          <p>Hobbies</p>
+        </div>
+        <div class="stat">
+          <h3 class="counter" data-target="3">0</h3>
+          <p>Horas de estudos p/ dia</p>
+        </div>
+        <div class="stat">
+          <h3 class="counter" data-target="5">0</h3>
+          <p>Sonhos em andamento</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section class="section" id="sobre">
+      <div class="container about-grid reveal">
+        <div class="about-img">
+          <img src="oi.jpeg" alt="Foto sobre mim">
+        </div>
+
+        <div class="about-text">
+          <p class="tag">Sobre mim</p>
+          <h2>Um pouco da minha história</h2>
+          <p>
+           Meu nome é Manuela Moraes Mathias de Oliveira, nasci no dia 12/07/2007, na cidade de Brasília e estudei dese o maternal até o final do ensino médio na escola chamada Instituto Educacional Santo Elias, localizada em Sobradinho/Df. 
+          <p>
+            Atualmente faço o curso de Ciências da Computação no Centro Universitário do Distrito Federal (UDF).
+          </p>
+          <p>
+            Sou uma pessoa movida pela curiosidade e pelo aprendizado contínuo. Além da rotina da faculdade, dedico boa parte do meu tempo aos estudos para concursos públicos e à leitura, sempre buscando novos desafios para evoluir pessoal e profissionalmente. 
+          </p>
+
+          <ul class="info-list">
+            <li><strong>Nome:</strong> Manuela Moraes Mathias de Oliveira</li>
+            <li><strong>Idade:</strong> 19 anos</li>
+            <li><strong>Cidade:</strong> Brasília, Df</li>
+            <li><strong>E-mail:</strong> manumathias0@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TRAJETÓRIA ========== -->
+    <section class="section section-alt" id="trajetoria">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="tag">Trajetória</p>
+          <h2>Minha linha do tempo</h2>
+          <p>Os principais momentos da minha jornada até aqui.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="year">2007</span>
+            <div class="card">
+              <h3>O começo de tudo</h3>
+              <p>Nasci e dei os primeiros passos em uma família cheia de carinho. Morando junto com a minha mãe, meus avós e minha tia.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="year">2013</span>
+            <div class="card">
+              <h3>Ensino Fundamental</h3>
+              <p>Foi onde construí a minha base de estudos, criei o hábito da leitura e dei os primeiros passos em projetos escolares que despertaram meu interesse por aprender coisas novas.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="year">2021</span>
+            <div class="card">
+              <h3>Ensino Médio</h3>
+              <p>Uma fase de amadurecimento e foco nos estudos, onde tracei minhas primeiras metas acadêmicas e decidi seguir na área da computação.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="year">2026</span>
+            <div class="card">
+              <h3>Ingresso na faculdade</h3>
+              <p>Comecei o curso de Ciências da Computação na UDF, mergulhando no universo da programação enquanto concilio a rotina acadêmica com a preparação para concursos públicos.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <span class="year">Hoje</span>
+            <div class="card">
+              <h3>Construindo o futuro</h3>
+              <p>Seguindo firme nos estudos, desenvolvendo projetos e planejando os próximos passos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== HABILIDADES ========== -->
+    <section class="section" id="habilidades">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="tag">Habilidades</p>
+          <h2>O que eu sei fazer</h2>
+          <p>Algumas das minhas principais competências.</p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill">
+            <div class="skill-top"><span>Comunicação</span><span>90%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-top"><span>Trabalho em equipe</span><span>85%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-top"><span>Organização</span><span>80%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="80"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-top"><span>Criatividade</span><span>75%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="75"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-top"><span>Resolução de problemas</span><span>88%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill">
+            <div class="skill-top"><span>Idiomas</span><span>70%</span></div>
+            <div class="bar"><div class="bar-fill" data-width="70"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== INTERESSES ========== -->
+    <section class="section section-alt" id="interesses">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="tag">Interesses</p>
+          <h2>O que eu amo fazer</h2>
+          <p>Coisas que fazem meus dias mais felizes.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card interest reveal">
+            <span class="emoji">📚</span>
+            <h3>Leitura</h3>
+            <p>Adoro mergulhar em boas histórias e explorar diferentes gêneros literários, usando os livros como fonte constante de aprendizado e imaginação.</p>
+          </article>
+          <article class="card interest reveal">
+            <span class="emoji">🎵</span>
+            <h3>Música</h3>
+            <p>Sou bem eclética e estou sempre descobrindo novos ritmos e playlists que embalam a minha rotina, dos momentos de foco aos momentos de descanso.</p>
+          </article>
+          <article class="card interest reveal">
+            <span class="emoji">✈️</span>
+            <h3>Viagens</h3>
+            <p>Gosto de conhecer novos lugares, explorar diferentes culturas e colecionar memórias e experiências marcantes a cada destino visitado.</p>
+          </article>
+          <article class="card interest reveal">
+            <span class="emoji">🎹</span>
+            <h3>Música</h3>
+            <p>A música também faz parte da minha prática no dia a dia: toco ukulele, pandeiro e cavaco por hobby e pura paixão por tirar um som.</p>
+          </article>
+          <article class="card interest reveal">
+            <span class="emoji">📚</span>
+            <h3>Estudo</h3>
+            <p>Tenho grande interesse pelo aprendizado contínuo, dividindo minha dedicação entre a faculdade de computação e os estudos para concursos.</p>
+          </article>
+          <article class="card interest reveal">
+            <span class="emoji">🏃‍♀️</span>
+            <h3>Esportes</h3>
+            <p>Mantenho uma rotina ativa treinando na academia, buscando sempre equilíbrio, disciplina e bem-estar físico e mental no dia a dia.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CITAÇÃO ========== -->
+    <section class="quote">
+      <div class="container reveal">
+        <blockquote>
+          “ Se uma pessoa não sabe a que destino está navegando, nenhum vento é favorável.”
+        </blockquote>
+        <p>— Sêneca</p>
+      </div>
+    </section>
+
+    <!-- ========== GALERIA ========== -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="tag">Galeria</p>
+          <h2>Momentos que guardo com carinho</h2>
+          <p>Clique em uma foto para ampliar.</p>
+        </div>
+
+        <!-- TROQUE AS FOTOS: altere o src de cada imagem -->
+        <div class="gallery">
+          <img src="77.jpeg" alt="Foto 1">
+          <img src="33.jpeg" alt="Foto 2">
+          <img src="44.jpeg"Foto 3">
+          <img src="55.jpeg" alt="Foto 4">
+          <img src="66.jpeg" alt="Foto 5">
+          <img src="22.jpeg" alt="Foto 6">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section class="section section-alt" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <p class="tag">Contato</p>
+          <h2>Vamos conversar?</h2>
+          <p>
+            Fique à vontade para entrar em contato. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <ul>
+            <li>📧 manumathias0@gmil.com</li>
+            <li>📱 (61) 98257-5447 </li>
+            <li>📍 Brasília, Df</li>
+          </ul>
+          <div class="social">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="GitHub">GitHub</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <input type="text" id="nome" placeholder="Seu nome" required>
+          <input type="email" id="email" placeholder="Seu e-mail" required>
+          <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== RODAPÉ ========== -->
+  <footer class="footer">
+    <p>© <span id="ano"></span> Manuelamoraes. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Janela para ampliar fotos -->
+  <div class="lightbox" id="lightbox">
+    <span class="close" id="closeLightbox">&times;</span>
+    <img src="" alt="Foto ampliada" id="lightboxImg">
+  </div>
+
+  <button class="to-top" id="toTop" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
